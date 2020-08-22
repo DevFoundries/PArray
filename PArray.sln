@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PArray", "PArray\PArray.csproj", "{B0F3B5AE-97C4-4C43-9F4A-DC66220495B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PArray", "PArray\PArray.csproj", "{B0F3B5AE-97C4-4C43-9F4A-DC66220495B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PArray.Test", "PArray.Test\PArray.Test.csproj", "{70604980-261F-4EF7-A3A5-898504A45AB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PArray.Test", "PArray.Test\PArray.Test.csproj", "{70604980-261F-4EF7-A3A5-898504A45AB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{2CC7654E-A6C6-4B0B-8382-1F474C883BB4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
