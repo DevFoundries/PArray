@@ -10,6 +10,9 @@
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <Copyright>Copyright © 2020 DevFoundries, LLC</Copyright>
+    <RepositoryUrl>https://github.com/DevFoundries/PArray</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageProjectUrl>https://github.com/DevFoundries/PArray</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
