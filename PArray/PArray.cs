@@ -81,7 +81,7 @@ namespace PArray
         public T Pop()
         {
             if (this.referenceList.Count == 0) return default;
-            T retval = referenceList[^1];
+            T retval = referenceList[referenceList.Count - 1];
             referenceList.RemoveAt(referenceList.Count-1);
             return retval;
         }

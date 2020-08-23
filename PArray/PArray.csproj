@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;netstandard2.0</TargetFrameworks>
     <PackageId>PArray</PackageId>
     <Authors>Wm. Barrett Simms (DevFoundries)</Authors>
     <Company>DevFoundries, LLC</Company>
@@ -13,6 +13,8 @@
     <RepositoryUrl>https://github.com/DevFoundries/PArray</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageProjectUrl>https://github.com/DevFoundries/PArray</PackageProjectUrl>
+    <Description>.NET Implementation of Perl's excellent Array features</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
